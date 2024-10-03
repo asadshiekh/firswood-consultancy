@@ -121,22 +121,23 @@ const Navbar = () => {
           <Dropdown1     
           label="Business Setup"
             links={[
-              { label: 'Business Setup 1', href: '/business-setup-1' },
-              { label: 'Business Setup 2', href: '/business-setup-2' },
-              { label: 'Business Setup 3', href: '/business-setup-3' },
+              { label: 'Business Setup 1', href: '/service/bookkeeping-services' },
+
             ]}    
           />
 
         <Dropdown1     
           label="Business Setup"
             links={[
-              { label: 'Business Setup 1', href: '/business-setup-1' },
-              { label: 'Business Setup 2', href: '/business-setup-2' },
-              { label: 'Business Setup 3', href: '/business-setup-3' },
+              { label: 'Business Setup 1', href: '/service/business-setup-services' },
+
             ]}    
           />
   
 
+          <Link href="/contact" className="" onClick={toggleMenu}>
+            Contact
+          </Link>
 
           
         </div>
