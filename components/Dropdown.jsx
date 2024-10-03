@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const Dropdown = ({ label, links }) => {
+const Dropdown = ({ label,link1,links }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
@@ -12,11 +12,11 @@ const Dropdown = ({ label, links }) => {
       onMouseEnter={() => setIsDropdownOpen(true)}
       onMouseLeave={() => setIsDropdownOpen(false)}
     >
-      <Link href="#">
+      <Link href={`${link1}`}>
         {label}
       </Link>
       {isDropdownOpen && (
-        <div className="absolute top-[15px] z-50 mt-2 w-48  bg-white rounded shadow-lg pt-5">
+        <div className="absolute top-[15px] z-50 mt-2 w-[200px]  bg-white rounded shadow-lg pt-5">
           {links.map((link, index) => (
             <Link key={index} href={link.href} className="block px-4 py-2 hover:bg-primary hover:text-white">
               {link.label}

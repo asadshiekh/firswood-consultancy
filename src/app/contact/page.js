@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner2 from '../../../components/Banner2';
-import AboutUsSection from '../../../components/AboutUsSection';
+import ContactSection from '../../../components/ContactSection';
+
 
 
 
@@ -20,20 +21,19 @@ export const metadata = {
 
 function page() {
   return (
-    <div>
 
-      <>
-      <Banner2
-      banner_title="About Us"
-      description="Leverage our expertise to navigate complexities, optimize operations, and achieve sustainable growth."
-      button_text="Get Started"
-      button_link="/"
-      ></Banner2>
-      <AboutUsSection/>
-     
-      </>
+    <>
+    <Banner2
+    banner_title="Get in Touch with Us"
+    description="Whether you have questions, need assistance, or want to discuss your project, our team is ready to listen."
+    button_text="Get Started"
+    button_link="/"
+    ></Banner2>
+    <ContactSection></ContactSection>
+   
+    </>
 
-    </div>
+
   )
 }
 

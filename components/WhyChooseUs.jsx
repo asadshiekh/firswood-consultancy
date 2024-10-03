@@ -11,7 +11,7 @@ function WhyChooseUs() {
 
         <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6 flex flex-col justify-center"> 
           <span className='text-primary text-center lg:text-left font-medium mb-2'>Firswood Consultancy</span>
-          <h2 className="text-3xl font-bold mb-4 text-center md:text-left w-full lg:w-80">We Help Our Clients to Achieve Their Goal?</h2> 
+          <h2 className="text-3xl font-bold mb-4 text-center md:text-left w-full lg:w-3/5">We Help Our Clients to Achieve Their Goal?</h2> 
           <p className="text-lg mb-4 text-center md:text-left">
           We guide you from concept to success, providing expert solutions to realize your entrepreneurial vision. Our expertise unlocks your potential, transforming ideas into reality through customized business solutions.
           </p>

@@ -43,15 +43,6 @@ export default function TestimonialSection() {
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <p className="text-lg">&ldquo;{testimonial.review}&rdquo;</p>
                 <div className="mt-4 flex items-center">
-                  <div className="flex-shrink-0">
-                  <Image
-                    className="h-12 w-12 rounded-full"
-                    src={testimonial.imageUrl}
-                    alt={testimonial.name}
-                    width={48} // You can adjust the width and height based on your need
-                    height={48}
-                  />
-                  </div>
                   <div className="ml-4">
                     <div className="text-lg font-medium">
                       {testimonial.name}

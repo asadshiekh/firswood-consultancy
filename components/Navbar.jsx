@@ -31,6 +31,7 @@ const Navbar = () => {
           {/* Business Setup Dropdown */}
           <Dropdown
             label="Business Setup"
+            link1="/service/business-setup-services"
             links={[
               { label: 'Business Setup 1', href: '/service/business-setup-services' },
 
@@ -40,18 +41,20 @@ const Navbar = () => {
           {/* Accounting & Tax Dropdown */}
           <Dropdown
             label="Accounting & Tax"
+            link1="/service/bookkeeping-services"
             links={[
               { label: 'Accounting Service 1', href: '/service/bookkeeping-services' },
             ]}
           />
 
-          <Link href="/it">
+          <Link href="/service/bookkeeping-services">
             IT
           </Link>
    
 
           <Dropdown
             label="insights"
+            link1="/service/bookkeeping-services"
             links={[
               { label: 'Insights 1', href: '/service/bookkeeping-services' },
             ]}
