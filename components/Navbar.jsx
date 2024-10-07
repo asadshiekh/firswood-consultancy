@@ -30,13 +30,67 @@ const Navbar = () => {
 
           {/* Business Setup Dropdown */}
           <Dropdown
-            label="Business Setup"
-            link1="/service/business-setup-services"
-            links={[
-              { label: 'Business Setup 1', href: '/service/business-setup-services' },
-
-            ]}
-          />
+              label="Business Setup"
+              link1="/service/business-setup-services"
+              links={[
+                { 
+                  label: 'Business Setup UAE', 
+                  href: '/service/business-setup-more',
+                  subLinks: [
+                    { 
+                      label: 'Mainland', 
+                      href: '/service/business-subsetup-2',
+                      subLinks: [
+                        { label: 'Dubai', href: '/service/third-level-setup-1' },
+                        { label: 'Sharjah', href: '/service/third-level-setup-2' },
+                        { label: 'Abu Dubai', href: '/service/third-level-setup-2' },
+                        { label: 'RAK', href: '/service/third-level-setup-2' },
+                      ]
+                    },
+                    
+                    { 
+                      label: 'Freezone', 
+                      href: '/service/business-subsetup-2',
+                      subLinks: [
+                        { label: 'Dubai', href: '/service/third-level-setup-1' },
+                        { label: 'Sharjah', href: '/service/third-level-setup-2' },
+                        { label: 'Abu Dubai', href: '/service/third-level-setup-2' },
+                        { label: 'RAK', href: '/service/third-level-setup-2' },
+                      ]
+                    },
+                    { label: 'Free Zone', href: '/service/business-subsetup-1' },
+                    { label: 'Off Shore', href: '/service/business-subsetup-1' },
+                    { label: 'Company Formation Service UAE', href: '/service/business-subsetup-1' },
+                    { 
+                      label: 'Sub Setup 2', 
+                      href: '/service/business-subsetup-2',
+                      subLinks: [
+                        { label: 'Third Level Setup 1', href: '/service/third-level-setup-1' },
+                        { label: 'Third Level Setup 2', href: '/service/third-level-setup-2' }
+                      ]
+                    }
+                  ]
+                },
+                
+                { label: 'Business Setup in Other Location', href: '/service/business-setup-services' },
+                { label: 'Business Support Services', href: '/service/business-setup-services' },
+                { 
+                  label: 'More Business Setup', 
+                  href: '/service/business-setup-more',
+                  subLinks: [
+                    { label: 'Sub Setup 1', href: '/service/business-subsetup-1' },
+                    { 
+                      label: 'Sub Setup 2', 
+                      href: '/service/business-subsetup-2',
+                      subLinks: [
+                        { label: 'Third Level Setup 1', href: '/service/third-level-setup-1' },
+                        { label: 'Third Level Setup 2', href: '/service/third-level-setup-2' }
+                      ]
+                    }
+                  ]
+                },
+              ]}
+            />
 
           {/* Accounting & Tax Dropdown */}
           <Dropdown
@@ -46,6 +100,24 @@ const Navbar = () => {
               { label: 'Accounting Service 1', href: '/service/bookkeeping-services' },
             ]}
           />
+
+
+          <Dropdown
+            label="Accounting & Tax"
+            link1="/service/bookkeeping-services"
+            links={[
+              { label: 'Accounting Service 1', href: '/service/bookkeeping-services' },
+              { 
+                label: 'More Business Setup', 
+                href: '/service/business-setup-more',
+                subLinks: [
+                  { label: 'Sub Setup 1', href: '/service/business-subsetup-1' },
+                  { label: 'Sub Setup 2', href: '/service/business-subsetup-2' }
+                ]
+              },
+            ]}
+          />
+
 
           <Link href="/service/bookkeeping-services">
             IT
