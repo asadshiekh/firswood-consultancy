@@ -13,7 +13,7 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: '#2e9cca',     // Custom primary color
+        primary: '#333333',     // Custom primary color
         secondary: '#ff6347',   // Custom secondary color
         accent: '#4CAF50',      // Custom accent color
         dark: {
