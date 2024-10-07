@@ -16,8 +16,9 @@ export default function Home() {
       <WhyChooseUs></WhyChooseUs>
       <HelpDeskBanner></HelpDeskBanner>
       <BlogSection></BlogSection>
-      <GovernmentAgenciesSection></GovernmentAgenciesSection>
       <TestimonialSection></TestimonialSection>
+      <GovernmentAgenciesSection></GovernmentAgenciesSection>
+
       <ContactSection></ContactSection>
     </>
   );
